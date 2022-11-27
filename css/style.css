@@ -37,7 +37,7 @@ body {
     justify-content: flex-start;
 }
 .FlexNav a:last-child {
-    margin-right: 10%;
+    margin-right: 5%;
 }
 .FlexNav a{
     margin: 10px;

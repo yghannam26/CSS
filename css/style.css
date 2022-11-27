@@ -25,26 +25,22 @@ body {
 }
 
 .FlexNav h2 {
-    flex-shrink: 5;
     margin-right: 63%;
     color: #F9FAF8;
     font-family: 'Origami', sans-serif;
     font-size: 30px;
 }
 .FlexNav figcaption {
-    flex: 1;
     text-align: center;
 }
 .FlexNav a:last-child{
     margin-right: 10%;
 }
 .FlexNav a{
-    flex: 1;
     margin: 10px;
     color: #F9FAF8;
 }
 .FlexNav img {
-    flex-shrink: 10;
     width: 100px;
     height: 100px;
 }

@@ -33,7 +33,10 @@ body {
 .FlexNav figcaption {
     text-align: center;
 }
-.FlexNav a:last-child{
+.FlexNav a:last-child {
+    justify-content: flex-start;
+}
+.FlexNav a:last-child {
     margin-right: 10%;
 }
 .FlexNav a{

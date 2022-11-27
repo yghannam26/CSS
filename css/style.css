@@ -30,9 +30,6 @@ body {
     font-family: 'Origami', sans-serif;
     font-size: 30px;
 }
-.FlexNav figcaption {
-    text-align: center;
-}
 .FlexNav a:last-child {
     margin-right: 10%;
 }
@@ -41,6 +38,7 @@ body {
     color: #F9FAF8;
 }
 .FlexNav img {
+    justify-content: flex-start;
     width: 100px;
     height: 100px;
 }

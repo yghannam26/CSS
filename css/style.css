@@ -11,19 +11,20 @@
     font-family: "Origami";
     src: url(../fonts/origami/Origami.ttf) format("truetype");
 }
+
 body {
     margin: 0;
 }
 .Header {
     background-color: #1F2937;
 }
+
 .FlexNav {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
     align-items:center;
 }
-
 .FlexNav h2 {
     margin-right: 80%;
     color: #F9FAF8;
@@ -32,6 +33,9 @@ body {
 }
 .FlexNav figcaption {
     text-align: center;
+}
+.FlexNav a:first-child{
+   align-self: flex-end;
 }
 .FlexNav a:last-child{
     margin-right: 10%;
@@ -171,6 +175,7 @@ body {
     border-radius: 10%;
     margin-left: 20px;
 }
+
 .Footer {
     background-color:#1F2937;
     color:#F9FAF8;

@@ -20,17 +20,19 @@ body {
 .FlexNav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
     align-items:center;
 }
 
 .FlexNav h2 {
-    margin-right: 70%;
+    margin-right: 67%;
     color: #F9FAF8;
     font-family: 'Origami', sans-serif;
     font-size: 30px;
 }
-.FlexNav a:last-child {
+.FlexNav figcaption {
+    text-align: center;
+}
+.FlexNav a:last-child{
     margin-right: 10%;
 }
 .FlexNav a{
@@ -38,7 +40,6 @@ body {
     color: #F9FAF8;
 }
 .FlexNav img {
-    justify-content: flex-start;
     width: 100px;
     height: 100px;
 }

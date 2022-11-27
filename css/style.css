@@ -33,9 +33,6 @@ body {
     text-align: center;
 }
 .FlexNav a:last-child {
-    justify-content: flex-start;
-}
-.FlexNav a:last-child {
     margin-right: 5%;
 }
 .FlexNav a{

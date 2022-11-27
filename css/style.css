@@ -44,6 +44,7 @@ body {
     color: #F9FAF8;
 }
 .FlexNav img {
+    flex-shrink: 10;
     width: 100px;
     height: 100px;
 }

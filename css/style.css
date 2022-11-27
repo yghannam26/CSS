@@ -25,7 +25,7 @@ body {
 }
 
 .FlexNav h2 {
-    flex: 1;
+    flex-shrink: 5;
     margin-right: 63%;
     color: #F9FAF8;
     font-family: 'Origami', sans-serif;

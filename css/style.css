@@ -16,38 +16,39 @@ body {
 }
 .Header {
     background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Logo {
+    display: flex;
+    align-content: center;
+}
+.Logo h2 {
+    color: #F9FAF8;
+    font-family: 'Origami', sans-serif;
+    font-size: 30px;
+}
+.Logo img {
+    width: 100px;
+    height: 100px;
 }
 .FlexNav {
     display: flex;
     flex-wrap: wrap;
     align-items:center;
-}
-
-.FlexNav h2 {
-    margin-right: 67%;
-    color: #F9FAF8;
-    font-family: 'Origami', sans-serif;
-    font-size: 30px;
-}
-.FlexNav figcaption {
-    text-align: center;
-}
-.FlexNav a:last-child{
-    margin-right: 4%;
+    margin-right: 5%;
 }
 .FlexNav a{
     margin: 10px;
     color: #F9FAF8;
 }
-.FlexNav img {
-    width: 100px;
-    height: 100px;
-}
+
 
 .Section1 {
-    margin-top: 30px;
     display: flex;
     flex-wrap: wrap;
+    background-color: #1F2937;
     align-items: flex-start;
     justify-content: center;
     align-content: center;
@@ -86,6 +87,7 @@ body {
     margin-left: 300px;
     margin-top: 0;
     align-self: center;
+    padding: 20px;
 }
 .Section1 figcaption {
     color:#F9FAF8 ;
@@ -127,34 +129,35 @@ body {
     color: #1F2937;
     justify-content: center;
     align-content: center;
-    height: 600px;
+    padding: 40px;
 }
 .Section3 p {
     font-family: 'Roboto-LI',sans-serif;
     font-size: 36px;
     margin-bottom: 0;
 }
-.Section3 figcaption {
+.Section3 footer {
     color: black;
+    margin-left: auto;
     font-size: 20px;
-    text-align: right;
     font-weight: bolder;
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .Section4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
     margin: 7%;
-    border-radius: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    padding: 10px;
     background-color:#3882F6;
 }
 .Section4 h2 {
     color: #F9FAF8;
     width:100%;
-    text-align: center;
 }
 .Section4 p {
     color: #F9FAF8;
@@ -167,8 +170,8 @@ body {
     color: #F9FAF8;
     font-size: 20px;
     text-align: center;
-    border-radius: 10%;
-    margin-left: 20px;
+    border-radius: 10px;
+    margin-left: auto;
 }
 .Footer {
     background-color:#1F2937;
@@ -184,6 +187,7 @@ body {
     padding-bottom: 40px;
     color:#F9FAF8;
     margin: 0;
+    flex-basis: 100%;
 }
 .ContentBody {
     background-color: rgb(200, 200, 232);

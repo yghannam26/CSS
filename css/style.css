@@ -50,9 +50,9 @@ body {
     flex-wrap: wrap;
     background-color: #1F2937;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 .Section1 div {
     display: flex;
@@ -60,6 +60,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
+    padding-left: 60px;
 }
 .Section1 div h1 {
     width: 500px;
@@ -84,10 +85,9 @@ body {
     border-radius: 15%;
 }
 .Section1 figure{
-    margin-left: 300px;
     margin-top: 0;
     align-self: center;
-    padding: 20px;
+    padding-right: 50px;
 }
 .Section1 figcaption {
     color:#F9FAF8 ;

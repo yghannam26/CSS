@@ -12,9 +12,6 @@
     src: url(../fonts/origami/Origami.ttf) format("truetype");
 }
 
-* {
-    border: 1px solid red;
-}
 
 body {
     margin: 0;
@@ -45,7 +42,6 @@ body {
     margin-right: 4.5%;
 }
 .FlexNav menu{
-    border: 1px solid green;
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
